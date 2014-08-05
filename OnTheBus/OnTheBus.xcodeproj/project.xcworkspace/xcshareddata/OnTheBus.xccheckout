@@ -12,22 +12,38 @@
 	<dict>
 		<key>0277A0E7088A6A4B57F02C17F92E6FAB47A9825B</key>
 		<string>https://github.com/jnblanchard/Makers.git</string>
+		<key>99713E94BB179CBB3847B71D2997799CE860983C</key>
+		<string>https://github.com/jnblanchard/OnTheBus.git</string>
+		<key>F4B2F827BD117DED3BA0F9259B1D9E0365E1B774</key>
+		<string>https://github.com/jnblanchard/assesment1.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>OnTheBus/OnTheBus.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>0277A0E7088A6A4B57F02C17F92E6FAB47A9825B</key>
+		<string>../../../../Makers</string>
+		<key>99713E94BB179CBB3847B71D2997799CE860983C</key>
 		<string>../../..</string>
+		<key>F4B2F827BD117DED3BA0F9259B1D9E0365E1B774</key>
+		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/jnblanchard/Makers.git</string>
+	<string>https://github.com/jnblanchard/OnTheBus.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>0277A0E7088A6A4B57F02C17F92E6FAB47A9825B</string>
+	<string>99713E94BB179CBB3847B71D2997799CE860983C</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F4B2F827BD117DED3BA0F9259B1D9E0365E1B774</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
@@ -35,6 +51,14 @@
 			<string>0277A0E7088A6A4B57F02C17F92E6FAB47A9825B</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Makers</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>99713E94BB179CBB3847B71D2997799CE860983C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>OnTheBus</string>
 		</dict>
 	</array>
 </dict>

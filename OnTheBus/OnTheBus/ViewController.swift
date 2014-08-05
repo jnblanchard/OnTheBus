@@ -36,9 +36,9 @@ class ViewController: UIViewController, MKMapViewDelegate, UITableViewDelegate, 
                 if let bus = bus as? NSDictionary {
                     let  pointAnnotation = MKPointAnnotation()
                     let lat = bus["latitude"] as NSString
-                    let long = bus["latitude"] as NSString
+                    let long = bus["longitude"] as NSString
                     let coordinate = CLLocationCoordinate2DMake(lat.doubleValue, long.doubleValue)
-                    if count == (self.busArray.count-1)/2  {
+                    if count == 30  {
                         self.middleBusCoordinate = coordinate
                     }
                     count++
@@ -48,7 +48,7 @@ class ViewController: UIViewController, MKMapViewDelegate, UITableViewDelegate, 
                     self.mapView.addAnnotation(pointAnnotation)
                 }
             }
-            let coordinateSpan = MKCoordinateSpanMake(0.55, 0.55)
+            let coordinateSpan = MKCoordinateSpanMake(0.0, 1.5)
             let myRegion = MKCoordinateRegion(center: self.middleBusCoordinate, span: coordinateSpan)
             self.mapView.setRegion(myRegion, animated: true)
         })

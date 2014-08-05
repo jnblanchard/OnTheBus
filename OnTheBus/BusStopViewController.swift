@@ -22,6 +22,7 @@ class BusStopViewController: UIViewController {
 
         routesLabel.text = dict["routes"] as String
         interModalLabel.text = dict["inter_modal"] as? String
+        interModalLabel.backgroundColor = UIColor.yellowColor()
     }
 
 }
